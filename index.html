@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portada</title>
+
+  <!-- Fuente Libertinus Serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./img/favicon.png">
+
+  <!-- Estilos externos -->
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header id="main-header">
+    <nav class="nav">
+      <div class="logo"><img src="./img/logo.png" alt="Logo"></div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <video src="./video/hero.mp4" autoplay muted loop playsinline></video>
+    <div class="hero-content">
+      <h1>100% CASERO Y DESDE CASA</h1>
+      <div class="actions">
+        <a class="action-card" href="tel:+541157277448"><span class="icon"><img src="./img/iconos/telefono.png" alt="Teléfono"></span>Llamar ahora</a>
+        <a class="action-card" href="https://wa.me/541157277448" target="_blank"><span class="icon"><img src="./img/iconos/whatsapp.png" alt="WhatsApp"></span>WhatsApp</a>
+        <a class="action-card" href="#presupuesto"><span class="icon"><img src="./img/iconos/presupuesto.png" alt="Presupuesto"></span>Presupuesto</a>
+        <a class="action-card" href="https://www.instagram.com/tenoriocatering/" target="_blank"><span class="icon"><img src="./img/iconos/instagram.png" alt="Instagram"></span>Seguinos</a>
+      </div>
+    </div>
+    <div class="payments"><img src="./img/payments/mercadopago.webp" alt="Mercado Pago"><img src="./img/payments/visa.png" alt="Visa"><img src="./img/payments/mastercard.png" alt="Mastercard"><img src="./img/payments/modo.png" alt="Modo"></div>
+  </section>
+
+  <section class="categories">
+    <div class="cat-section" id="desayunos">
+      <div class="carousel">
+        <button class="arrow left" aria-label="Anterior">&#10094;</button>
+        <img src="./img/categorias/desayunos1.jpg" class="active" alt="Desayuno 1">
+        <img src="./img/categorias/desayunos2.jpg" alt="Desayuno 2">
+        <img src="./img/categorias/desayunos3.jpg" alt="Desayuno 3">
+        <img src="./img/categorias/desayunos4.jpg" alt="Desayuno 4">
+        <img src="./img/categorias/desayunos5.jpg" alt="Desayuno 5">
+        <button class="arrow right" aria-label="Siguiente">&#10095;</button>
+      </div>
+      <span>Desayunos</span>
+    </div>
+     <div class="cat-section" id="especiales">
+      <div class="carousel">
+        <button class="arrow left" aria-label="Anterior">&#10094;</button>
+        <img src="./img/categorias/especiales1.jpg" class="active" alt="Especial 1">
+        <img src="./img/categorias/especiales2.jpg" alt="Especial 2">
+        <img src="./img/categorias/especiales3.jpg" alt="Especial 3">
+        <img src="./img/categorias/especiales4.jpg" alt="Especial 4">
+        <img src="./img/categorias/especiales5.jpg" alt="Especial 5">
+        <img src="./img/categorias/especiales6.jpg" alt="Especial 6">
+        <button class="arrow right" aria-label="Siguiente">&#10095;</button>
+      </div>
+      <span>Especiales</span>
+    </div>
+     <div class="cat-section" id="tortas">
+      <div class="carousel">
+        <button class="arrow left" aria-label="Anterior">&#10094;</button>
+        <img src="./img/categorias/tortas1.jpg" class="active" alt="Torta 1">
+        <img src="./img/categorias/tortas2.jpg" alt="Torta 2">
+        <img src="./img/categorias/tortas3.jpg" alt="Torta 3">
+        <img src="./img/categorias/tortas4.jpg" alt="Torta 4">
+        <img src="./img/categorias/tortas5.jpg" alt="Torta 5">
+        <button class="arrow right" aria-label="Siguiente">&#10095;</button>
+      </div>
+      <span>Tortas</span>
+    </div>
+     <div class="cat-section" id="postres">
+      <div class="carousel">
+        <button class="arrow left" aria-label="Anterior">&#10094;</button>
+        <img src="./img/categorias/postres1.jpg" class="active" alt="Postre 1">
+        <img src="./img/categorias/postres2.jpg" alt="Postre 2">
+        <img src="./img/categorias/postres3.jpg" alt="Postre 3">
+        <img src="./img/categorias/postres4.jpg" alt="Postre 4">
+        <img src="./img/categorias/postres5.jpg" alt="Postre 5">
+        <button class="arrow right" aria-label="Siguiente">&#10095;</button>
+      </div>
+      <span>Postres</span>
+    </div>
+     <div class="cat-section" id="catering">
+      <div class="carousel">
+        <button class="arrow left" aria-label="Anterior">&#10094;</button>
+        <img src="./img/categorias/catering1.jpg" class="active" alt="Catering 1">
+        <img src="./img/categorias/catering2.jpg" alt="Catering 2">
+        <img src="./img/categorias/catering3.jpg" alt="Catering 3">
+        <img src="./img/categorias/catering4.jpg" alt="Catering 4">
+        <button class="arrow right" aria-label="Siguiente">&#10095;</button>
+      </div>
+      <span>Catering</span>
+    </div>
+  </section>
+
+  <section class="contacto" id="presupuesto">
+    <h2>Solicita tu presupuesto</h2>
+    <form id="contact-form">
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required>
+      <input type="email" id="correo" name="correo" placeholder="Correo" required>
+      <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+      <textarea id="descripcion" name="descripcion" rows="5" placeholder="Descripción del pedido" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script>
+    const header=document.getElementById('main-header');
+    window.addEventListener('scroll',()=>{if(window.scrollY>50)header.classList.add('shrink');else header.classList.remove('shrink')});
+
+    // Carruseles
+    document.querySelectorAll('.carousel').forEach(carousel=>{
+      const imgs=carousel.querySelectorAll('img');
+      let current=0;
+      const show=(i)=>{imgs.forEach((img,idx)=>img.classList.toggle('active',idx===i));};
+      carousel.querySelector('.arrow.left').addEventListener('click',()=>{current=(current-1+imgs.length)%imgs.length;show(current)});
+      carousel.querySelector('.arrow.right').addEventListener('click',()=>{current=(current+1)%imgs.length;show(current)});
+    });
+
+    // Enviar formulario a WhatsApp
+    document.getElementById('contact-form').addEventListener('submit', function(e){
+      e.preventDefault();
+      const nombre = document.getElementById('nombre').value.trim();
+      const correo = document.getElementById('correo').value.trim();
+      const telefono = document.getElementById('telefono').value.trim();
+      const descripcion = document.getElementById('descripcion').value.trim();
+
+      const mensaje = `Nombre y Apellido: ${nombre} Correo: ${correo} Teléfono: ${telefono} Descripción: ${descripcion}`;
+      const numero = '541157277448';
+      const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+
+      window.open(url, '_blank');
+    });
+  </script>
+</body>
+</html>
